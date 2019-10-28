@@ -20,13 +20,17 @@ into the virtualenv.
 .. code-block:: console
 
   # Build version 0.0.01 of the package from the ../sampleapis proto definitions
-  $ ./package_protos.sh 0.0.1
+  $ cd tools && ./package_protos.sh 0.0.1
 
 To use the package in your project, install the generated package:
 
 
 .. code-block:: console
 
+  # Install in development mode (symlink) to keep editing
+  $ pip install -e build
+
+  # Install the generated package (non editable)
   $ pip install build/dist/sampleapis-0.0.1.tar.gz
 
 

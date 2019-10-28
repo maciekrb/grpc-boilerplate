@@ -24,6 +24,6 @@ for gRPC services.
 
 
 .. _gRPC: https://grpc.io
-.. _Protocol buffers: https://github.com/google/protobuf
+.. _Protocol buffer: https://github.com/google/protobuf
 .. _Envoy: https://github.com/tetratelabs/istio-tools/tree/master/grpc-transcoder
 .. _ESP: https://github.com/cloudendpoints/esp
